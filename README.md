@@ -3,6 +3,7 @@ This project performs handwritten digit recognition on the MNIST dataset using a
 It classifies grayscale images of handwritten digits (0–9) into their respective categories.
 
 One particularly useful insight was working with the MNIST dataset, which is already included in Keras — making it easy to access without the need to manually upload or download the data. You can load the dataset directly in your code with the following command:
+
 (X_train, y_train), (X_test, y_test) = keras.datasets.mnist.load_data()
 
 📝 Project Highlights
